@@ -1,0 +1,64 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = LOD, FOV, gamespeed
+path = "Bayonetta 2/Mods/Gameplay tweaks"
+description = US v0  - Unstable but fun
+version = 5
+
+[Default]
+$gameplayFov:float = 0.87366463
+$modelLod:float = 1.0
+$gameplayTempo:float = 1.0
+
+
+
+[Preset]
+name = Default gameplay FOV 87
+category = Gameplay FOV
+$gameplayFov:float = 0.87366463
+
+[Preset]
+name = Increased gameplay FOV 95 
+category = Gameplay FOV
+$gameplayFov:float = 0.95
+
+[Preset]
+name = Increased gameplay FOV 100 
+category = Gameplay FOV
+$gameplayFov:float = 0.99
+
+[Preset]
+name = Match 21:9 FOV to 16:9 
+category = Gameplay FOV
+$gameplayFov:float = 0.4642
+
+[Preset]
+name = Default model LOD distance 
+category = Model LOD switch distance
+$modelLod:float = 1.0
+
+[Preset]
+name = Increased model LOD distance x2
+category = Model LOD switch distance
+$modelLod:float = 2.0
+
+[Preset]
+name = Increased model LOD distance x3
+category = Model LOD switch distance
+$modelLod:float = 3.0
+
+[Preset]
+name = Default gamplay speed
+category = Gamplay speed
+$gameplayTempo:float = 1.0
+
+[Preset]
+name = Turbo gamplay +10%
+category = Gamplay speed
+$gameplayTempo:float = 1.1
+
+[Preset]
+name = Slow / Easy gamplay -10%
+category = Gamplay speed
+$gameplayTempo:float = 0.9
+

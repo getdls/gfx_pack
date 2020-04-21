@@ -1,0 +1,1031 @@
+[Definition]
+titleIds = 0005000010116300,000500001012DC00,0005000010135300
+name = Contrasty
+path = "The Wonderful 101/Enhancements/Contrasty"
+description = This pack tweaks the colors and contrast.
+version = 5
+
+[Default]
+$redShadows:float = 1.0
+$greenShadows:float = 1.0
+$blueShadows:float = 1.0
+$redMid:float = 1.0
+$greenMid:float = 1.0
+$blueMid:float = 1.0
+$redHighlight:float = 1.0
+$greenHighlight:float =1.0
+$blueHighlight:float = 1.0
+$contrastCurve:float = 0.0
+$hazeFactor:float = 1.0
+$bloom:float = 1.0
+$gamma:float = 1.0
+$exposure:float = 1.0
+$vibrance:float = 0.0
+$crushContrast:float = 0.0
+$lensreflection:float = 1.0
+$sharp_mix:float = 0.0
+$isCustom:int = 0
+
+[Preset] # 
+name = Default
+category = Standard presets
+$redShadows:float = 1.0
+$greenShadows:float = 1.0
+$blueShadows:float = 1.0
+$redMid:float = 1.0
+$greenMid:float = 1.0
+$blueMid:float = 1.0
+$redHighlight:float = 1.0
+$greenHighlight:float =1.0
+$blueHighlight:float = 1.0
+$contrastCurve:float = 0.0
+$hazeFactor:float = 1.0
+$bloom:float = 1.0
+$gamma:float = 1.0
+$exposure:float = 1.0
+$vibrance:float = 0.0
+$crushContrast:float = 0.0
+$lensreflection:float = 1.0
+$sharp_mix:float = 0.0
+
+
+[Preset] # 
+name = Clean - Sharpen 
+category = Standard presets
+$redShadows:float = 1.0
+$greenShadows:float = 1.0
+$blueShadows:float = 1.0
+$redMid:float = 1.0
+$greenMid:float = 1.0
+$blueMid:float = 1.0
+$redHighlight:float = 1.0
+$greenHighlight:float =1.0
+$blueHighlight:float = 1.0
+$contrastCurve:float = 0.0
+$hazeFactor:float = 1.0
+$bloom:float = 1.0
+$gamma:float = 1.0
+$exposure:float = 0.95
+$vibrance:float = 0.15
+$crushContrast:float = 0.0
+$lensreflection:float = 0.8
+$sharp_mix:float = 0.55
+
+
+[Preset] 
+name = Clean neutral - Sharpen, contrast
+category = Standard presets
+$redShadows:float = 1.0
+$greenShadows:float = 1.0
+$blueShadows:float = 1.0
+$redMid:float = 1.0
+$greenMid:float = 1.0
+$blueMid:float = 1.0
+$redHighlight:float = 1.05
+$greenHighlight:float = 1.0
+$blueHighlight:float = 1.0
+$contrastCurve:float = 0.2
+$hazeFactor:float = 1.0
+$bloom:float = 1.0
+$gamma:float = 1.05
+$exposure:float = 0.85
+$vibrance:float = 0.1
+$crushContrast:float = 0.0
+$lensreflection:float = 0.95
+$sharp_mix:float = 0.35
+
+
+[Preset] # Colourful midway between original and cold
+name = Warm / Colorful
+category = Standard presets
+$redShadows:float = 0.975
+$greenShadows:float = 0.95
+$blueShadows:float = 1.075
+$redMid:float = 1.1
+$greenMid:float = 1.05
+$blueMid:float = 1.0
+$redHighlight:float = 1.0
+$greenHighlight:float = 1.0
+$blueHighlight:float = 0.92
+$contrastCurve:float = 0.15
+$hazeFactor:float = 0.1
+$bloom:float = 1.0
+$gamma:float = 0.98
+$exposure:float = 0.99
+$vibrance:float = 0.2
+$crushContrast:float = 0.0
+$lensreflection:float = 0.95
+$sharp_mix:float = 0.0
+
+
+[Preset] 
+name = Cold and colour
+category = Standard presets
+$redShadows:float = 0.99 #0.99
+$greenShadows:float = 1.0 # 1.0
+$blueShadows:float = 1.0 #1.0 #1.01
+$redMid:float = 0.88 #0.87
+$greenMid:float = 0.925 #0.9 #0.88
+$blueMid:float = 1.0
+$redHighlight:float = 1.05
+$greenHighlight:float = 1.01 #.86
+$blueHighlight:float = 1.0 #1.14
+$contrastCurve:float = 0.25
+$hazeFactor:float = 0.1
+$bloom:float = 0.975
+$gamma:float = 1.025
+$exposure:float = 1.025
+$vibrance:float = 0.4
+$crushContrast:float = 0.0
+$lensreflection:float = 0.95
+$sharp_mix:float = 0.00
+
+
+
+
+[Preset]
+name = Fully custom
+category = Standard presets
+$isCustom:int = 1
+
+
+
+#Red shadow
+[Preset]
+name = Default no level change 
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 1.0
+
+[Preset]
+name = Red shadow level +.05
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 1.05
+
+[Preset]
+name = Red shadow level +.1
+category = Red shadow level
+condition = $isCustom == 1
+$redShadows:float = 1.1
+
+[Preset]
+name = Red shadow level +.15
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 1.15
+
+[Preset]
+name = Red shadow level +.2
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 1.20
+
+[Preset]
+name = Red shadow level -.05
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 0.95
+
+[Preset]
+name = Red shadow level -.1
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 0.9
+
+[Preset]
+name = Red shadow level -.15
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 0.85
+
+[Preset]
+name = Red shadow level -.2
+category = Red shadow level 
+condition = $isCustom == 1
+$redShadows:float = 0.8
+
+
+#Green shadow
+[Preset]
+name = Default no level change 
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 1.0
+
+[Preset]
+name = Green shadow level +.05
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 1.05
+
+[Preset]
+name = Green shadow level +.1
+category = Green shadow level
+condition = $isCustom == 1
+$greenShadows:float = 1.1
+
+[Preset]
+name = Green shadow level +.15
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 1.15
+
+[Preset]
+name = Green shadow level +.2
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 1.20
+
+[Preset]
+name = Green shadow level -.05
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 0.95
+
+[Preset]
+name = Green shadow level -.1
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 0.9
+
+[Preset]
+name = Green shadow level -.15
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 0.85
+
+[Preset]
+name = Green shadow level -.2
+category = Green shadow level 
+condition = $isCustom == 1
+$greenShadows:float = 0.8
+
+
+##Blue shadow
+[Preset]
+name = Default no level change 
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 1.0
+
+[Preset]
+name = Blue shadow level +.05
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 1.05
+
+[Preset]
+name = Blue shadow level +.1
+category = Blue shadow level
+condition = $isCustom == 1
+$blueShadows:float = 1.1
+
+[Preset]
+name = Blue shadow level +.15
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 1.15
+
+[Preset]
+name = Blue shadow level +.2
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 1.20
+
+[Preset]
+name = Blue shadow level -.05
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 0.95
+
+[Preset]
+name = Blue shadow level -.1
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 0.9
+
+[Preset]
+name = Blue shadow level -.15
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 0.85
+
+[Preset]
+name = Blue shadow level -.2
+category = Blue shadow level 
+condition = $isCustom == 1
+$blueShadows:float = 0.8
+
+
+#Red Mid
+[Preset]
+name = Default no level change 
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 1.0
+
+[Preset]
+name = Red mids level +.05
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 1.05
+
+[Preset]
+name = Red mids level +.1
+category = Red mids level
+condition = $isCustom == 1
+$redMid:float = 1.1
+
+[Preset]
+name = Red mids level +.15
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 1.15
+
+[Preset]
+name = Red mids level +.2
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 1.20
+
+[Preset]
+name = Red mids level -.05
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 0.95
+
+[Preset]
+name = Red mids level -.1
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 0.9
+
+[Preset]
+name = Red mids level -.15
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 0.85
+
+[Preset]
+name = Red mids level -.2
+category = Red mids level 
+condition = $isCustom == 1
+$redMid:float = 0.8
+
+
+#Green Mid
+[Preset]
+name = Default no level change 
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 1.0
+
+[Preset]
+name = Green mids level +.05
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 1.05
+
+[Preset]
+name = Green mids level +.1
+category = Green mids level
+condition = $isCustom == 1
+$greenMid:float = 1.1
+
+[Preset]
+name = Green mids level +.15
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 1.15
+
+[Preset]
+name = Green mids level +.2
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 1.20
+
+[Preset]
+name = Green mids level -.05
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 0.95
+
+[Preset]
+name = Green mids level -.1
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 0.9
+
+[Preset]
+name = Green mids level -.15
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 0.85
+
+[Preset]
+name = Green mids level -.2
+category = Green mids level 
+condition = $isCustom == 1
+$greenMid:float = 0.8
+
+#Blue Mid
+[Preset]
+name = Default no level change 
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 1.0
+
+[Preset]
+name = Blue mids level +.05
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 1.05
+
+[Preset]
+name = Blue mids level +.1
+category = Blue mids level
+condition = $isCustom == 1
+$blueMid:float = 1.1
+
+[Preset]
+name = Blue mids level +.15
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 1.15
+
+[Preset]
+name = Blue mids level +.2
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 1.20
+
+[Preset]
+name = Blue mids level -.05
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 0.95
+
+[Preset]
+name = Blue mids level -.1
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 0.9
+
+[Preset]
+name = Blue mids level -.15
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 0.85
+
+[Preset]
+name = Blue mids level -.2
+category = Blue mids level 
+condition = $isCustom == 1
+$blueMid:float = 0.8
+
+#Red High
+[Preset]
+name = Default no level change 
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 1.0
+
+[Preset]
+name = Red highlight +.05
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 1.05
+
+[Preset]
+name = Red highlight +.1
+category = Red highlight
+condition = $isCustom == 1
+$redHighlight:float = 1.1
+
+[Preset]
+name = Red highlight +.15
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 1.15
+
+[Preset]
+name = Red highlight +.2
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 1.20
+
+[Preset]
+name = Red highlight -.05
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 0.95
+
+[Preset]
+name = Red highlight -.1
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 0.9
+
+[Preset]
+name = Red highlight -.15
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 0.85
+
+[Preset]
+name = Red highlight -.2
+category = Red highlight 
+condition = $isCustom == 1
+$redHighlight:float = 0.8
+
+#Green High
+[Preset]
+name = Default no level change 
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 1.0
+
+[Preset]
+name = Green highlight + .05
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 1.05
+
+[Preset]
+name = Green highlight +.1
+category = Green highlight
+condition = $isCustom == 1
+$greenHighlight:float = 1.1
+
+[Preset]
+name = Green highlight +.15
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 1.15
+
+[Preset]
+name = Green highlight +.2
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 1.20
+
+[Preset]
+name = Green highlight -.05
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 0.95
+
+[Preset]
+name = Green highlight -.1
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 0.9
+
+[Preset]
+name = Green highlight -.15
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 0.85
+
+[Preset]
+name = Green highlight -.2
+category = Green highlight 
+condition = $isCustom == 1
+$greenHighlight:float = 0.8
+
+#Blue High
+[Preset]
+name = Default no level change 
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 1.0
+
+[Preset]
+name = Blue highlight +.05
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 1.05
+
+[Preset]
+name = Blue highlight +.1
+category = Blue highlight
+condition = $isCustom == 1
+$blueHighlight:float = 1.1
+
+[Preset]
+name = Blue highlight +.15
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 1.15
+
+[Preset]
+name = Blue highlight +.2
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 1.20
+
+[Preset]
+name = Blue highlight -.05
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 0.95
+
+[Preset]
+name = Blue highlight -.1
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 0.9
+
+[Preset]
+name = Blue highlight -.15
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 0.85
+
+[Preset]
+name = Blue highlight -.2
+category = Blue highlight 
+condition = $isCustom == 1
+$blueHighlight:float = 0.8
+
+#Conrast curve
+[Preset]
+name = Default no contrast change
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.0
+
+[Preset]
+name = Contrast curve +.05
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.05
+
+[Preset]
+name = Contrast curve +.1
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.1
+
+[Preset]
+name = Contrast curve +.15
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.15
+
+[Preset]
+name = Contrast curve +.2
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.20
+
+[Preset]
+name = Contrast curve +.3
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.3
+
+[Preset]
+name = Contrast curve +.4
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.4
+
+[Preset]
+name = Contrast curve +.5
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.5
+
+[Preset]
+name = Contrast curve +.75
+category = Contrast curve
+condition = $isCustom == 1
+$contrastCurve:float = 0.75
+
+
+#Blue High
+[Preset]
+name = Default no level change 
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 1.0
+
+[Preset]
+name = Bloom +.05
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 1.05
+
+[Preset]
+name = Bloom +.1
+category = Bloom
+condition = $isCustom == 1
+$bloom:float = 1.1
+
+[Preset]
+name = Bloom +.15
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 1.15
+
+[Preset]
+name = Bloom +.2
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 1.20
+
+[Preset]
+name = Bloom -.05
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 0.95
+
+[Preset]
+name = Bloom -.1
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 0.9
+
+[Preset]
+name = Bloom -.15
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 0.85
+
+[Preset]
+name = Bloom -.2
+category = Bloom 
+condition = $isCustom == 1
+$bloom:float = 0.8
+
+#Gamma
+[Preset]
+name = Default no level change 
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 1.0
+
+[Preset]
+name = Gamma +.05
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 1.05
+
+[Preset]
+name = Gamma +.1
+category = Gamma
+condition = $isCustom == 1
+$gamma:float = 1.1
+
+[Preset]
+name = Gamma +.15
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 1.15
+
+[Preset]
+name = Gamma +.2
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 1.20
+
+[Preset]
+name = Gamma -.05
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 0.95
+
+[Preset]
+name = Gamma -.1
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 0.9
+
+[Preset]
+name = Gamma -.15
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 0.85
+
+[Preset]
+name = Gamma -.2
+category = Gamma 
+condition = $isCustom == 1
+$gamma:float = 0.8
+
+#Exposure
+[Preset]
+name = Default no level change 
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 1.0
+
+[Preset]
+name = Exposure +.05
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 1.05
+
+[Preset]
+name = Exposure +.1
+category = Exposure
+condition = $isCustom == 1
+$exposure:float = 1.1
+
+[Preset]
+name = Exposure +.15
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 1.15
+
+[Preset]
+name = Exposure +.2
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 1.20
+
+[Preset]
+name = Exposure -.05
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 0.95
+
+[Preset]
+name = Exposure -.1
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 0.9
+
+[Preset]
+name = Exposure -.15
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 0.85
+
+[Preset]
+name = Exposure -.2
+category = Exposure 
+condition = $isCustom == 1
+$exposure:float = 0.8
+
+
+#Vibrance
+[Preset]
+name = Default no level change 
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.0
+
+[Preset]
+name = Vibrance +.05
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.05
+
+[Preset]
+name = Vibrance +.1
+category = Vibrance
+condition = $isCustom == 1
+$vibrance:float = 0.1
+
+[Preset]
+name = Vibrance +.15
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.15
+
+[Preset]
+name = Vibrance +.2
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.20
+
+[Preset]
+name = Vibrance +.3
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.3
+
+[Preset]
+name = Vibrance +.4
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.4
+
+[Preset]
+name = Vibrance +.5
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = 0.5
+
+[Preset]
+name = Vibrance -.2
+category = Vibrance 
+condition = $isCustom == 1
+$vibrance:float = -0.2
+
+#Sharpness
+[Preset]
+name = Default no level change 
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.0
+
+[Preset]
+name = Sharpness + .5
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.1
+
+[Preset]
+name = Sharpness +.2
+category = Sharpness
+condition = $isCustom == 1
+$sharp_mix:float = 0.2
+
+[Preset]
+name = Sharpness +.3
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.3
+
+[Preset]
+name = Sharpness +.4
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.4
+
+[Preset]
+name = Sharpness +.5
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.5
+
+[Preset]
+name = Sharpness +.75
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = 0.75
+
+[Preset]
+name = Sharpness -.15
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = -0.15
+
+[Preset]
+name = Sharpness -.25
+category = Sharpness 
+condition = $isCustom == 1
+$sharp_mix:float = -0.25
+
+#Lens reflection
+[Preset]
+name = Default no level change 
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 1.0
+
+#Lens reflection
+[Preset]
+name = Lens reflection 0.95 
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.95
+#Lens reflection
+
+[Preset]
+name = Lens reflection 0.9
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.9
+
+#Lens reflection
+[Preset]
+name = Lens reflection 0.85
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.85
+
+#Lens reflection
+[Preset]
+name = Lens reflection 0.75
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.75
+
+#Lens reflection
+[Preset]
+name = Lens reflection 0.5
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.5
+
+#Lens reflection
+[Preset]
+name = Lens reflection disabled
+category = Lens reflection
+condition = $isCustom == 1
+$lensreflection:float = 0.0

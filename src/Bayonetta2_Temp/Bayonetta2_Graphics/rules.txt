@@ -1,0 +1,810 @@
+[Definition]
+titleIds = 0005000010172600,0005000010172700,000500001011B900
+name = Graphics
+path = "Bayonetta 2/Graphics"
+description = Changes the resolution of the game. Made by Slashiee and Darkmaster.
+version = 5
+
+[Default]
+name = 1280x720 (Default)
+
+$width:float = 1280.0
+$height:float = 720.0
+$gameWidth:float = 1280.0
+$gameHeight:float = 720.0
+#$dither:float = 0.01
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+$isCustom:int = 0
+
+##Moved patches to external for now
+#Bayo 2 is unstable, not enought time to verify if its due to patches or Cemu.. but doubling FOV sure as fuck doesn't improve things.
+#$enable60:int = 2 
+#$gameplayFov:float = 0.78539819
+#$modelLod:float = 1.0
+#$gameplayTempo:float = 1.0
+
+
+[Preset]
+name = Normal scaling
+category = Standard presets
+$isCustom:int = 1
+
+[Preset]
+name = Pre-defined custom
+category = Standard presets
+$isCustom:int = 3
+
+[Preset]
+name = Fully custom 
+category = Standard presets
+$isCustom:int = 4
+
+[Preset]
+name = 1280x720 (16:9) normal 
+category = Resolution
+condition = $isCustom == 1
+$width:float = 1280.0
+$height:float = 720.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 2560x1440 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2560.0
+$height:float = 1440.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 2732x1536 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2732.0
+$height:float = 1536.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 3200x1800 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 3200.0
+$height:float = 1800.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 3840x2160 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 3840.0
+$height:float = 2160.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 5120x2880 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5120.0
+$height:float = 2880.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 5760x3240 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5760.0
+$height:float = 3240.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 7680x4320 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 7680.0
+$height:float = 4320.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+
+[Preset]
+name = -- 21:9 -- resolutions 
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2560.0
+$height:float = 720.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 2560x720 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2560.0
+$height:float = 720.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 3440.0
+$height:float = 1440.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5120.0
+$height:float = 2160.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = -- 32:9 -- edge errors
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5120.0
+$height:float = 1440.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5120.0
+$height:float = 1440.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = -- 16:10 -- resolutions
+category = Resolution
+condition = $isCustom == 1
+$width:float = 1440.0
+$height:float = 900.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 1440x900 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 1440.0
+$height:float = 900.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 1680x1050 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 1680.0
+$height:float = 1050.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 1280x1200 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 1280.0
+$height:float = 1200.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 2560x1600 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2560.0
+$height:float = 1600.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 2880x1800 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 2880.0
+$height:float = 1800.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 3840x2400 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 3840.0
+$height:float = 2400.0
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 5120x3200 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width:float = 5120.0
+$height:float = 3200.0
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 3840x2160 x2 vert res(16:9)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width:float = 3840.0
+$height:float = 2160.0
+$shadowRes:float = 3.0
+$relativeTextureLOD:float = -.75
+$verticalRes:float = 2.0 
+
+
+[Preset]
+name = 640x240 (4:3 15hz arcade)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 640
+$height = 240
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 640x480 (4:3)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 640
+$height = 480
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 800x600 (4:3)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 800
+$height = 600
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 1024x768 (4:3)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 1024
+$height = 768
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset] # 
+name = 1280x960 (4:3)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 1280
+$height = 960
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 1.0
+$relativeTextureLOD:float = 0.0
+
+[Preset] # 
+name = 1920x1200 (Trinitron)
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 1920
+$height = 1200
+$gameWidth = 1280
+$gameHeight = 720
+$verticalRes:float = 1.0
+$shadowRes:float = 2.0
+$relativeTextureLOD:float = 0.0
+
+[Preset]
+name = 1280x720 (16:9) Fully custom
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 1280.0
+$height:float = 720.0
+
+[Preset]
+name = 2560x1440 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2560.0
+$height:float = 1440.0
+
+[Preset]
+name = 2732x1536 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2732.0
+$height:float = 1536.0
+
+[Preset]
+name = 3200x1800 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 3200.0
+$height:float = 1800.0
+
+[Preset]
+name = 3840x2160 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 3840.0
+$height:float = 2160.0
+
+[Preset]
+name = 5120x2880 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5120.0
+$height:float = 2880.0
+
+[Preset]
+name = 5760x3240 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5760.0
+$height:float = 3240.0
+
+
+[Preset]
+name = 7680x4320 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 7680.0
+$height:float = 4320.0
+
+
+[Preset]
+name = -- 21:9 -- resolutions 
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2560.0
+$height:float = 720.0
+
+[Preset]
+name = 2560x720 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2560.0
+$height:float = 720.0
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 3440.0
+$height:float = 1440.0
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5120.0
+$height:float = 2160.0
+
+[Preset]
+name = -- 32:9 -- edge errors
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5120.0
+$height:float = 1440.0
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5120.0
+$height:float = 1440.0
+
+[Preset]
+name = -- 16:10 -- resolutions
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 1440.0
+$height:float = 900.0
+
+[Preset]
+name = 1440x900 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 1440.0
+$height:float = 900.0
+
+[Preset]
+name = 1680x1050 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 1680.0
+$height:float = 1050.0
+
+[Preset]
+name = 1280x1200 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 1280.0
+$height:float = 1200.0
+
+[Preset]
+name = 2560x1600 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2560.0
+$height:float = 1600.0
+
+[Preset]
+name = 2880x1800 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 2880.0
+$height:float = 1800.0
+
+[Preset]
+name = 3840x2400 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 3840.0
+$height:float = 2400.0
+
+[Preset]
+name = 5120x3200 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width:float = 5120.0
+$height:float = 3200.0
+
+[Preset]
+name = Default - No shadow res change 
+category = Shadow resolution
+condition = $isCustom == 4
+$shadowRes:float = 1.0
+
+[Preset]
+name = 2x shadow res
+category = Shadow resolution
+condition = $isCustom == 4
+$shadowRes:float = 2.0
+
+[Preset]
+name = 3x shadow res
+category = Shadow resolution
+condition = $isCustom == 4
+$shadowRes:float = 3.0
+
+[Preset]
+name = 6x shadow res
+category = Shadow resolution
+condition = $isCustom == 4
+$shadowRes:float = 6.0
+
+
+
+[Preset]
+name = Default - No vertical res change 
+category = Vertical resolution
+condition = $isCustom == 4
+$verticalRes:float = 1.0
+
+[Preset]
+name = Double vertical Res SSAA
+category = Vertical resolution
+condition = $isCustom == 4
+$verticalRes:float = 2.0
+
+
+
+[Preset]
+name = Default - No LOD change 
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = 0.0 
+
+[Preset]
+name = + 1.0 Softer
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = +1.0 
+
+[Preset]
+name = - 0.5 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = -.5
+
+[Preset]
+name = - 1.0 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = -1.0 
+
+[Preset]
+name = - 1.5 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = -1.5 
+
+[Preset]
+name = - 2.0 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = -2.0 
+
+[Preset]
+name = - 3.0 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD:float = -3.0 
+
+
+
+# [Preset]
+# name = Default gameplay FOV 80
+# category = Gameplay FOV
+# condition = $isCustom == 4
+# $gameplayFov:float = 0.78539819
+# 
+# [Preset]
+# name = Increased gameplay FOV 90 
+# category = Gameplay FOV
+# condition = $isCustom == 4
+# $gameplayFov:float = 0.9
+# 
+# [Preset]
+# name = Increased gameplay FOV 100 
+# category = Gameplay FOV
+# condition = $isCustom == 4
+# $gameplayFov:float = 0.99
+# 
+# [Preset]
+# name = Match 21:9 FOV to 16:9 
+# category = Gameplay FOV
+# condition = $isCustom == 4
+# $gameplayFov:float = 0.582
+# 
+# [Preset]
+# name = Default model LOD distance 
+# category = Model LOD switch distance
+# condition = $isCustom == 4
+# $modelLod:float = 1.0
+# 
+# [Preset]
+# name = Increased model LOD distance x2
+# category = Model LOD switch distance
+# condition = $isCustom == 4
+# $modelLod:float = 2.0
+# 
+# [Preset]
+# name = Increased model LOD distance x3
+# category = Model LOD switch distance
+# condition = $isCustom == 4
+# $modelLod:float = 3.0
+# 
+# [Preset]
+# name = Default gamplay speed
+# category = Gamplay speed
+# condition = $isCustom == 4
+# $gameplayTempo:float = 1.0
+# 
+# [Preset]
+# name = Turbo gamplay +10%
+# category = Gamplay speed
+# condition = $isCustom == 4
+# $gameplayTempo:float = 1.1
+# 
+# [Preset]
+# name = Slow / Easy gamplay -10%
+# category = Gamplay speed
+# condition = $isCustom == 4
+# $gameplayTempo:float = 0.9
+# 
+# [Preset]
+# name = Default 30 FPS cutscene 
+# category = Cutscene FPS
+# condition = $isCustom == 4
+# $enable60:int = 1
+# 
+# [Preset]
+# name = 60 FPS cutscene 
+# category = Cutscene FPS 
+# condition = $isCustom == 4
+# $enable60:int = 2 
+
+
+[TextureRedefine]
+formats = 0x031,0x032,0x033,0x034,0x035
+overwriteRelativeLodBias = $relativeTextureLOD
+
+#Colour depth 
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine] 
+width = 320
+height = 180
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine] 
+width = 320
+height = 176
+formats = 0x01a
+overwriteFormat = 0x01f
+
+
+[TextureRedefine] # Game Resolution
+width = 1280
+height = 720
+tileModesExcluded = 0x001
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height/$gameHeight) * 720 *$verticalRes
+
+[TextureRedefine] # Shadows
+width = 1024
+height = 2048
+formats = 0x005,0x011
+overwriteWidth = $shadowRes * 1024
+overwriteHeight = $shadowRes * 2048
+
+[TextureRedefine] # Blur Map
+width = 640
+height = 368
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 368
+
+[TextureRedefine] # Blur Map
+width = 640
+height = 360
+tileModesExcluded = 0x001
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 360
+
+[TextureRedefine] # Motion Blur Map
+width = 320
+height = 192
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 192
+
+[TextureRedefine] # Motion Blur Map
+width = 320
+height = 180
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 180
+
+[TextureRedefine] # Bloom Map
+width = 320
+height = 176
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 176
+
+[TextureRedefine] # depth loading etc
+width = 256
+height = 256
+formats = 0x011 #,0x1a
+depth = 1
+overwriteWidth = ($width / $gameWidth) * 256
+overwriteHeight = ($height / $gameHeight) * 256
+
+[TextureRedefine] # depth loading etc
+width = 128
+height = 128
+formats = 0x011 #,0x1a
+depth = 1
+overwriteWidth = ($width / $gameWidth) * 128
+overwriteHeight = ($height / $gameHeight) * 128
+
+[TextureRedefine] # Bloom Mip
+width = 96
+height = 48
+overwriteWidth = ($width / $gameWidth) * 96
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine] # Bloom Mip
+width = 80
+height = 48
+overwriteWidth = ($width / $gameWidth) * 80
+overwriteHeight = ($height / $gameHeight) * 48
+
+[TextureRedefine] # depth loading etc
+width = 64
+height = 64
+depth = 1
+formats = 0x011 #,0x1a
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 64
+
+[TextureRedefine] # Bloom Mip
+width = 64
+height = 32
+formats = 0x1a
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 32
+
+[TextureRedefine] # Bloom Mip
+width = 48
+height = 32
+overwriteWidth = ($width / $gameWidth) * 48
+overwriteHeight = ($height / $gameHeight) * 32
+
+#[TextureRedefine] # particles
+#width = 8
+#height = 8
+#formats = 0x01a
+#overwriteWidth = ($width / $gameWidth) * 8
+#overwriteHeight = ($height / $gameHeight) * 8
+##
+#[TextureRedefine] # grading?
+#width = 4
+#height = 4
+#formats = 0x80e
+#overwriteWidth = ($width / $gameWidth) * 4
+#overwriteHeight = ($height / $gameHeight) * 4

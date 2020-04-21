@@ -1,142 +1,608 @@
 [Definition]
 titleIds = 0005000010116300,000500001012DC00,0005000010135300
-name = TV Resolution and Gamepad Resolution
+name = Graphics
 path = "The Wonderful 101/Graphics"
-description = Changes the TV resolution and Gamepad resolution of the game.||Made by Slashiee.
+description = Changes the resolution of the game. Made by Slashiee and Darkmaster.
 version = 5
 
 [Default]
+name = 1280x720 (Default)
 $width = 1280
 $height = 720
-$padWidth = 854
-$padHeight = 480
 $gameWidth = 1280
 $gameHeight = 720
+$padWidth = 854
+$padHeight = 480
 $gamePadWidth = 854
 $gamePadHeight = 480
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+$isCustom:int = 0
 
-
-# TV Resolution
 
 [Preset]
-category = TV Resolution
-name = 1280x720 (Default)
+name = Normal scaling
+category = Standard presets
+$isCustom:int = 1
+
+#[Preset] #remove in public branch
+#name = Pre-defined custom
+#category = Standard presets
+#$isCustom:int = 3
 
 [Preset]
-category = TV Resolution
-name = 640x360
-$width = 640
-$height = 360
+name = Fully custom 
+category = Standard presets
+$isCustom:int = 4
 
 [Preset]
-category = TV Resolution
-name = 960x540
-$width = 960
-$height = 540
+name = 1280x720 (16:9) normal 
+category = Resolution
+condition = $isCustom == 1
+$width = 1280
+$height = 720
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
 
 [Preset]
-category = TV Resolution
-name = 1600x900
-$width = 1600
+name = 2560x1440 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 2560
+$height = 1440
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 2732x1536 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 2732
+$height = 1536
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 3200x1800 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 3200
+$height = 1800
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 3840x2160 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 3840
+$height = 2160
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = 5120x2880 (16:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 5120
+$height = 2880
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = 5760x3240 (16:9)
+category = Resolution
+condition = $isCustom == 1.0
+$width = 5760
+$height = 3240
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = 7680x4320 (16:9)
+category = Resolution
+condition = $isCustom == 1.0
+$width = 7680
+$height = 4320
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -1.0
+
+
+[Preset]
+name = -- 21:9 -- resolutions 
+category = Resolution
+condition = $isCustom == 1
+$width = 2560
+$height = 720
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 2560x720 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 2560
+$height = 720
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 3440
+$height = 1440
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = 6880x1440 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 6880
+$height = 1440
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Resolution
+condition = $isCustom == 1
+$width = 5120
+$height = 2160
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = -0.5
+
+[Preset]
+name = -- 16:10 -- resolutions
+category = Resolution
+condition = $isCustom == 1
+$width = 1440
 $height = 900
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
 
 [Preset]
-category = TV Resolution
-name = 1920x1080
-$width = 1920
-$height = 1080
+name = 1440x900 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 1440
+$height = 900
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
 
 [Preset]
-category = TV Resolution
-name = 2560x1440
+name = 1680x1050 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 1680
+$height = 1050
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 1280x1200 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 1280
+$height = 1200
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 2560x1600 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 2560
+$height = 1600
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = 0
+
+[Preset]
+name = 2880x1800 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 2880
+$height = 1800
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = 0
+
+[Preset]
+name = 3840x2400 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 3840
+$height = 2400
+$verticalRes = 1
+$shadowRes = 2
+$relativeTextureLOD = 0
+
+[Preset]
+name = 5120x3200 (16:10)
+category = Resolution
+condition = $isCustom == 1
+$width = 5120
+$height = 3200
+$verticalRes = 1
+$shadowRes = 1
+$relativeTextureLOD = 0
+
+[Preset]
+name = 1280x720 (16:9) Fully custom
+category = Fully custom
+condition = $isCustom == 4
+$width = 1280
+$height = 720
+
+[Preset]
+name = 2560x1440 (16:9)
+category = Fully custom
+condition = $isCustom == 4
 $width = 2560
 $height = 1440
 
 [Preset]
-category = TV Resolution
-name = 3200x1800
+name = 2732x1536 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 2732
+$height = 1536
+
+[Preset]
+name = 3200x1800 (16:9)
+category = Fully custom
+condition = $isCustom == 4
 $width = 3200
 $height = 1800
 
 [Preset]
-category = TV Resolution
-name = 3840x2160
+name = 3840x2160 (16:9)
+category = Fully custom
+condition = $isCustom == 4
 $width = 3840
 $height = 2160
 
 [Preset]
-category = TV Resolution
-name = 5120x2880
+name = 5120x2880 (16:9)
+category = Fully custom
+condition = $isCustom == 4
 $width = 5120
 $height = 2880
 
 [Preset]
-category = TV Resolution
-name = 7680x4320
+name = 5760x3240 (16:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5760
+$height = 3240
+
+[Preset]
+name = 7680x4320 (16:9)
+category = Fully custom
+condition = $isCustom == 4
 $width = 7680
 $height = 4320
 
 
-# Gamepad Resolution
+[Preset]
+name = -- 21:9 --  
+category = Fully custom
+condition = $isCustom == 4
+$width = 2560
+$height = 720
+
+[Preset]
+name = 2560x720 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 2560
+$height = 720
+
+[Preset]
+name = 3440x1440 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 3440
+$height = 1440
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5120
+$height = 2160
+
+[Preset]
+name = 5120x2160 (21:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5120
+$height = 2160
+
+[Preset]
+name = -- 32:9 -- edge errors
+category = Fully custom
+condition = $isCustom == 4
+$width = 5120
+$height = 1440
+
+[Preset]
+name = 5120x1440 (32:9)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5120
+$height = 1440
+
+
+[Preset]
+name = -- 16:10 -- resolutions
+category = Fully custom
+condition = $isCustom == 4
+$width = 1440
+$height = 900
+
+[Preset]
+name = 1440x900 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 1440
+$height = 900
+
+[Preset]
+name = 1680x1050 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 1680
+$height = 1050
+
+[Preset]
+name = 1280x1200 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 1280
+$height = 1200
+
+[Preset]
+name = 2560x1600 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 2560
+$height = 1600
+
+[Preset]
+name = 2880x1800 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 2880
+$height = 1800
+
+[Preset]
+name = 3840x2400 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 3840
+$height = 2400
+
+[Preset]
+name = 5120x3200 (16:10)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5120
+$height = 3200
+
+#[Preset]
+#name = Default - No shadow res change 
+#category = Shadow resolution
+#condition = $isCustom == 4
+#$shadowRes = 1024
+#
+#[Preset]
+#name = 2x shadow res
+#category = Shadow resolution
+#condition = $isCustom == 4
+#$shadowRes = 2048
+#
+#[Preset]
+#name = 3x shadow res
+#category = Shadow resolution
+#condition = $isCustom == 4
+#$shadowRes = 3072
+#
+#[Preset]
+#name = Remove shadows
+#category = Shadow resolution
+#condition = $isCustom == 4
+#$shadowRes = 1.0
+
+[Preset]
+name = Default - No vertical res change 
+category = Vertical resolution
+condition = $isCustom == 4
+$verticalRes = 1
+
+
+[Preset]
+name = Double vertical Res SSAA
+category = Vertical resolution
+condition = $isCustom == 4
+$verticalRes = 2
+
 
 [Preset]
 name = 854x480 (Default)
 category = Gamepad Resolution
+condition = $isCustom == 4
+$padWidth = 854
+$padHeight = 480
 
 [Preset]
 category = Gamepad Resolution
 name = 640x360
+condition = $isCustom == 4
 $padWidth = 640
 $padHeight = 360
 
 [Preset]
 category = Gamepad Resolution
 name = 960x540
+condition = $isCustom == 4
 $padWidth = 960
 $padHeight = 540
 
 [Preset]
 category = Gamepad Resolution
 name = 1600x900
+condition = $isCustom == 4
 $padWidth = 1600
 $padHeight = 900
 
 [Preset]
 category = Gamepad Resolution
 name = 1920x1080
+condition = $isCustom == 4
 $padWidth = 1920
 $padHeight = 1080
 
 [Preset]
 category = Gamepad Resolution
 name = 2560x1440
+condition = $isCustom == 4
 $padWidth = 2560
 $padHeight = 1440
 
 [Preset]
 category = Gamepad Resolution
 name = 3200x1800
+condition = $isCustom == 4
 $padWidth = 3200
 $padHeight = 1800
 
 [Preset]
 category = Gamepad Resolution
 name = 3840x2160
+condition = $isCustom == 4
 $padWidth = 3840
 $padHeight = 2160
 
 [Preset]
 category = Gamepad Resolution
 name = 5120x2880
+condition = $isCustom == 4
 $padWidth = 5120
 $padHeight = 2880
 
 [Preset]
 category = Gamepad Resolution
 name = 7680x4320
+condition = $isCustom == 4
 $padWidth = 7680
 $padHeight = 4320
 
+
+[Preset]
+name = Default - No LOD change 
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = 0 
+
+[Preset]
+name = + 1 Softer
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = +1 
+
+[Preset]
+name = - 0.5 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = -.5
+
+[Preset]
+name = - 1 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = -1 
+
+[Preset]
+name = - 1.5 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = -1.5 
+
+[Preset]
+name = - 2 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = -2 
+
+[Preset]
+name = - 3 Sharper
+category = Texture LOD
+condition = $isCustom == 4
+$relativeTextureLOD = -3 
+
+[TextureRedefine]
+formats = 0x031,0x032,0x033,0x034,0x035
+overwriteRelativeLodBias = $relativeTextureLOD
+
+
+#Colour depth 
+
+[TextureRedefine]
+width = 1280
+height = 720
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 368
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 640
+height = 360
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 320
+height = 192
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine] 
+width = 320
+height = 180
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine] 
+width = 320
+height = 176
+formats = 0x01a
+overwriteFormat = 0x01f
 
 
 # Texture Redefines
@@ -144,71 +610,115 @@ $padHeight = 4320
 [TextureRedefine] # Game Resolution
 width = 1280
 height = 720
-tileModesExcluded = 0x1
-overwriteWidth = ($width/$gameWidth) * 1280
-overwriteHeight = ($height/$gameHeight) * 720
+tileModesExcluded = 0x001
+overwriteWidth = ($width / $gameWidth) * 1280
+overwriteHeight = ($height / $gameHeight) * 720 *$verticalRes
 
-[TextureRedefine] # Depth of Field Pass? Bloom Pass?
+[TextureRedefine] # Shadows
+width = 1024
+height = 2048
+formats = 0x005,0x011
+overwriteWidth = $shadowRes
+overwriteHeight = $shadowRes*2.0
+
+[TextureRedefine] # Blur Map
 width = 640
 height = 368
-overwriteWidth = ($width/$gameWidth) * 640
-overwriteHeight = ($height/$gameHeight) * 368
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 368
 
-[TextureRedefine] # Depth of Field Pass? Bloom Pass?
+[TextureRedefine] # Blur Map
 width = 640
 height = 360
-tileModesExcluded = 0x1
-overwriteWidth = ($width/$gameWidth) * 640
-overwriteHeight = ($height/$gameHeight) * 360
+tileModesExcluded = 0x001
+overwriteWidth = ($width / $gameWidth) * 640
+overwriteHeight = ($height / $gameHeight) * 360
 
-[TextureRedefine] # Bloom Pass
+[TextureRedefine] # Motion Blur Map
 width = 320
 height = 192
-overwriteWidth = ($width/$gameWidth) * 320
-overwriteHeight = ($height/$gameHeight) * 192
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 192
 
-[TextureRedefine] # Bloom Pass
+#Ugly withot shader fix, don't scale for now. 
+#[TextureRedefine] #Dof
+#width = 320
+#height = 400
+#formats = 0x820 
+#overwriteWidth = ($height / $gameHeight) * 320 
+#overwriteHeight = ($height / $gameHeight) * 400
+
+#[TextureRedefine] # Dof 8 round
+#width = 320
+#height = 392
+#formats = 0x820 
+#overwriteWidth = ($height / $gameHeight) * 320 
+#overwriteHeight = ($height / $gameHeight) * 392
+
+[TextureRedefine] # Motion Blur Map
 width = 320
 height = 180
-overwriteWidth = ($width/$gameWidth) * 320
-overwriteHeight = ($height/$gameHeight) * 180
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 180
+
+[TextureRedefine] # Bloom Map
+width = 320
+height = 176
+overwriteWidth = ($width / $gameWidth) * 320
+overwriteHeight = ($height / $gameHeight) * 176
+
+#[TextureRedefine] # depth, conflicts with water refraction
+#width = 256
+#height = 256
+#formats = 0x011,0x01a
+#depth = 1
+#overwriteWidth = ($width / $gameWidth) * 256
+#overwriteHeight = ($height / $gameHeight) * 256
 
 [TextureRedefine] # Bloom Pass Mip
 width = 160
 height = 96
-overwriteWidth = ($width/$gameWidth) * 160
-overwriteHeight = ($height/$gameHeight) * 96
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 96
 
-[TextureRedefine] # Bloom Pass Mip
+[TextureRedefine] # Bloom
 width = 160
 height = 90
-overwriteWidth = ($width/$gameWidth) * 160
-overwriteHeight = ($height/$gameHeight) * 90
+overwriteWidth = ($width / $gameWidth) * 160
+overwriteHeight = ($height / $gameHeight) * 90
 
-[TextureRedefine] # Bloom Pass Mip
+[TextureRedefine] # Bloom
 width = 96
 height = 48
-overwriteWidth = ($width/$gameWidth) * 96
-overwriteHeight = ($height/$gameHeight) * 48
+overwriteWidth = ($width / $gameWidth) * 96
+overwriteHeight = ($height / $gameHeight) * 48
 
-[TextureRedefine] # Bloom Pass Mip
+[TextureRedefine] # Bloom
 width = 80
 height = 45
-overwriteWidth = ($width/$gameWidth) * 80
-overwriteHeight = ($height/$gameHeight) * 45
+overwriteWidth = ($width / $gameWidth) * 80
+overwriteHeight = ($height / $gameHeight) * 45
 
-[TextureRedefine] # Bloom Pass Mip
+#[TextureRedefine] # depth loading etc
+#width = 64
+#height = 64
+#depth = 1
+#formats = 0x011,0x01a
+#overwriteWidth = ($width / $gameWidth) * 64
+#overwriteHeight = ($height / $gameHeight) * 64
+
+[TextureRedefine] # Bloom Mip
 width = 64
 height = 32
-formats = 0x1a
-overwriteWidth = ($width/$gameWidth) * 64
-overwriteHeight = ($height/$gameHeight) * 32
+#formats = 0x1a
+overwriteWidth = ($width / $gameWidth) * 64
+overwriteHeight = ($height / $gameHeight) * 32
 
-[TextureRedefine] # Bloom Pass Mip
+[TextureRedefine] # Bloom Mip
 width = 40
 height = 22
-overwriteWidth = ($width/$gameWidth) * 40
-overwriteHeight = ($height/$gameHeight) * 22
+overwriteWidth = ($width / $gameWidth) * 40
+overwriteHeight = ($height / $gameHeight) * 22
 
 [TextureRedefine] # Gamepad Resolution
 width = 864
@@ -219,5 +729,19 @@ overwriteHeight = ($padHeight/$gamePadHeight) * 480
 [TextureRedefine] # Gamepad Resolution
 width = 854
 height = 480
-overwriteWidth = ($width/$gameWidth) * 854
-overwriteHeight = ($height/$gameHeight) * 480
+overwriteWidth = ($padWidth/$gamePadWidth) * 854
+overwriteHeight = ($padHeight/$gamePadHeight) * 480
+
+#[TextureRedefine] # 
+#width = 8
+#height = 8
+#formats = 0x01a
+#overwriteWidth = ($width / $gameWidth) * 8
+#overwriteHeight = ($height / $gameHeight) * 8
+
+#[TextureRedefine] # grading?
+#width = 4
+#height = 4
+#formats = 0x80e
+#overwriteWidth = ($width / $gameWidth) * 4
+#overwriteHeight = ($height / $gameHeight) * 4
