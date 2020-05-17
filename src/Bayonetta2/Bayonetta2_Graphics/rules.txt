@@ -8,22 +8,23 @@ version = 5
 [Default]
 name = 1280x720 (Default)
 
-$width:float = 1280.0
-$height:float = 720.0
-$gameWidth:float = 1280.0
-$gameHeight:float = 720.0
-#$dither:float = 0.01
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1280.0
+$height = 720.0
+$gameWidth = 1280.0
+$gameHeight = 720.0
+#$dither = 0.01
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 $isCustom:int = 0
+$internalRes = 1.0
 
 ##Moved patches to external for now
 #Bayo 2 is unstable, not enought time to verify if its due to patches or Cemu.. but doubling FOV sure as fuck doesn't improve things.
 #$enable60:int = 2 
-#$gameplayFov:float = 0.78539819
-#$modelLod:float = 1.0
-#$gameplayTempo:float = 1.0
+#$gameplayFov = 0.78539819
+#$modelLod = 1.0
+#$gameplayTempo = 1.0
 
 
 [Preset]
@@ -45,233 +46,256 @@ $isCustom:int = 4
 name = 1280x720 (16:9) normal 
 category = Resolution
 condition = $isCustom == 1
-$width:float = 1280.0
-$height:float = 720.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1280.0
+$height = 720.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 2560x1440 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2560.0
-$height:float = 1440.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 2560.0
+$height = 1440.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 2732x1536 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2732.0
-$height:float = 1536.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 2732.0
+$height = 1536.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 3200x1800 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 3200.0
-$height:float = 1800.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 3200.0
+$height = 1800.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 3840x2160 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 3840.0
-$height:float = 2160.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 3840.0
+$height = 2160.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 5120x2880 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5120.0
-$height:float = 2880.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 5120.0
+$height = 2880.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 5760x3240 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5760.0
-$height:float = 3240.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 5760.0
+$height = 3240.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 7680x4320 (16:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 7680.0
-$height:float = 4320.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 7680.0
+$height = 4320.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 
 [Preset]
 name = -- 21:9 -- resolutions 
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2560.0
-$height:float = 720.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 2560.0
+$height = 720.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 2560x720 (21:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2560.0
-$height:float = 720.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 2560.0
+$height = 720.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 3440x1440 (21:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 3440.0
-$height:float = 1440.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 3440.0
+$height = 1440.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 5120x2160 (21:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5120.0
-$height:float = 2160.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 5120.0
+$height = 2160.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = -- 32:9 -- edge errors
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5120.0
-$height:float = 1440.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 5120.0
+$height = 1440.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 5120x1440 (32:9)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5120.0
-$height:float = 1440.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 5120.0
+$height = 1440.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = -- 16:10 -- resolutions
 category = Resolution
 condition = $isCustom == 1
-$width:float = 1440.0
-$height:float = 900.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1440.0
+$height = 900.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 1440x900 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 1440.0
-$height:float = 900.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1440.0
+$height = 900.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 1680x1050 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 1680.0
-$height:float = 1050.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1680.0
+$height = 1050.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 1280x1200 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 1280.0
-$height:float = 1200.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 1280.0
+$height = 1200.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 2560x1600 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2560.0
-$height:float = 1600.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 2560.0
+$height = 1600.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 2880x1800 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 2880.0
-$height:float = 1800.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 2880.0
+$height = 1800.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 3840x2400 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 3840.0
-$height:float = 2400.0
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$width = 3840.0
+$height = 2400.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
 
 [Preset]
 name = 5120x3200 (16:10)
 category = Resolution
 condition = $isCustom == 1
-$width:float = 5120.0
-$height:float = 3200.0
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$width = 5120.0
+$height = 3200.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
 
 [Preset]
-name = 3840x2160 x2 vert res(16:9)
+name = 3840x2160 x2 vert res( 16:9)
 category = Pre-defined custom
 condition = $isCustom == 3
-$width:float = 3840.0
-$height:float = 2160.0
-$shadowRes:float = 3.0
-$relativeTextureLOD:float = -.75
-$verticalRes:float = 2.0 
+$width = 3840.0
+$height = 2160.0
+$shadowRes = 3.0
+$relativeTextureLOD = -.75
+$verticalRes = 2.0
+$internalRes = 1.0 
 
+[Preset]
+name = 3840x2160 x2 vert res (16:9) iRes 0.5
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 3840.0
+$height = 2160.0
+$shadowRes = 3.0
+$relativeTextureLOD = -.75
+$verticalRes = 2.0 
+$internalRes = 1.0
+
+[Preset]
+name = 7680x4320 - 16:9 iRes 1/3
+category = Pre-defined custom
+condition = $isCustom == 3
+$width = 7680.0
+$height = 4320.0
+$verticalRes = 1.0
+$shadowRes = (1.0)
+$relativeTextureLOD = -1.0
+$verticalRes = 2.0 
+$internalRes = (1.0/3.0)
 
 [Preset]
 name = 640x240 (4:3 15hz arcade)
@@ -281,9 +305,10 @@ $width = 640
 $height = 240
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset]
 name = 640x480 (4:3)
@@ -293,9 +318,10 @@ $width = 640
 $height = 480
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset]
 name = 800x600 (4:3)
@@ -305,9 +331,10 @@ $width = 800
 $height = 600
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset]
 name = 1024x768 (4:3)
@@ -317,9 +344,10 @@ $width = 1024
 $height = 768
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset] # 
 name = 1280x960 (4:3)
@@ -329,9 +357,10 @@ $width = 1280
 $height = 960
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 1.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 1.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset] # 
 name = 1920x1200 (Trinitron)
@@ -341,189 +370,197 @@ $width = 1920
 $height = 1200
 $gameWidth = 1280
 $gameHeight = 720
-$verticalRes:float = 1.0
-$shadowRes:float = 2.0
-$relativeTextureLOD:float = 0.0
+$verticalRes = 1.0
+$shadowRes = 2.0
+$relativeTextureLOD = 0.0
+$internalRes = 1.0
 
 [Preset]
 name = 1280x720 (16:9) Fully custom
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 1280.0
-$height:float = 720.0
+$width = 1280.0
+$height = 720.0
 
 [Preset]
 name = 2560x1440 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2560.0
-$height:float = 1440.0
+$width = 2560.0
+$height = 1440.0
 
 [Preset]
 name = 2732x1536 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2732.0
-$height:float = 1536.0
+$width = 2732.0
+$height = 1536.0
 
 [Preset]
 name = 3200x1800 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 3200.0
-$height:float = 1800.0
+$width = 3200.0
+$height = 1800.0
 
 [Preset]
 name = 3840x2160 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 3840.0
-$height:float = 2160.0
+$width = 3840.0
+$height = 2160.0
 
 [Preset]
 name = 5120x2880 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5120.0
-$height:float = 2880.0
+$width = 5120.0
+$height = 2880.0
 
 [Preset]
-name = 5760x3240 (16:9)
+name = 5120x4320 (1.5:2.0)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5760.0
-$height:float = 3240.0
+$width = 5120.0
+$height = 4320.0
 
+
+[Preset]
+name = 5760x3240 (16:9 6k)
+category = Fully custom
+condition = $isCustom == 4
+$width = 5760.0
+$height = 3240.0
 
 [Preset]
 name = 7680x4320 (16:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 7680.0
-$height:float = 4320.0
+$width = 7680.0
+$height = 4320.0
 
 
 [Preset]
 name = -- 21:9 -- resolutions 
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2560.0
-$height:float = 720.0
+$width = 2560.0
+$height = 720.0
 
 [Preset]
 name = 2560x720 (21:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2560.0
-$height:float = 720.0
+$width = 2560.0
+$height = 720.0
 
 [Preset]
 name = 3440x1440 (21:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 3440.0
-$height:float = 1440.0
+$width = 3440.0
+$height = 1440.0
 
 [Preset]
 name = 5120x2160 (21:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5120.0
-$height:float = 2160.0
+$width = 5120.0
+$height = 2160.0
 
 [Preset]
 name = -- 32:9 -- edge errors
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5120.0
-$height:float = 1440.0
+$width = 5120.0
+$height = 1440.0
 
 [Preset]
 name = 5120x1440 (32:9)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5120.0
-$height:float = 1440.0
+$width = 5120.0
+$height = 1440.0
 
 [Preset]
 name = -- 16:10 -- resolutions
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 1440.0
-$height:float = 900.0
+$width = 1440.0
+$height = 900.0
 
 [Preset]
 name = 1440x900 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 1440.0
-$height:float = 900.0
+$width = 1440.0
+$height = 900.0
 
 [Preset]
 name = 1680x1050 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 1680.0
-$height:float = 1050.0
+$width = 1680.0
+$height = 1050.0
 
 [Preset]
 name = 1280x1200 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 1280.0
-$height:float = 1200.0
+$width = 1280.0
+$height = 1200.0
 
 [Preset]
 name = 2560x1600 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2560.0
-$height:float = 1600.0
+$width = 2560.0
+$height = 1600.0
 
 [Preset]
 name = 2880x1800 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 2880.0
-$height:float = 1800.0
+$width = 2880.0
+$height = 1800.0
 
 [Preset]
 name = 3840x2400 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 3840.0
-$height:float = 2400.0
+$width = 3840.0
+$height = 2400.0
 
 [Preset]
 name = 5120x3200 (16:10)
 category = Fully custom
 condition = $isCustom == 4
-$width:float = 5120.0
-$height:float = 3200.0
+$width = 5120.0
+$height = 3200.0
 
 [Preset]
 name = Default - No shadow res change 
 category = Shadow resolution
 condition = $isCustom == 4
-$shadowRes:float = 1.0
+$shadowRes = 1.0
 
 [Preset]
 name = 2x shadow res
 category = Shadow resolution
 condition = $isCustom == 4
-$shadowRes:float = 2.0
+$shadowRes = 2.0
 
 [Preset]
 name = 3x shadow res
 category = Shadow resolution
 condition = $isCustom == 4
-$shadowRes:float = 3.0
+$shadowRes = 3.0
 
 [Preset]
 name = 6x shadow res
 category = Shadow resolution
 condition = $isCustom == 4
-$shadowRes:float = 6.0
+$shadowRes = 6.0
 
 
 
@@ -531,119 +568,158 @@ $shadowRes:float = 6.0
 name = Default - No vertical res change 
 category = Vertical resolution
 condition = $isCustom == 4
-$verticalRes:float = 1.0
+$verticalRes = 1.0
 
 [Preset]
 name = Double vertical Res SSAA
 category = Vertical resolution
 condition = $isCustom == 4
-$verticalRes:float = 2.0
+$verticalRes = 2.0
 
+[Preset]
+name = Default - No Internal res change 
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = 1.0
 
+[Preset]
+name = Internal res x2
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = 2.0
+
+[Preset]
+name = Internal res 0.75
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = 0.75
+
+[Preset]
+name = Internal res 2/3
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = (2.0/3.0)
+
+[Preset]
+name = Internal res 0.5
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = 0.5
+
+[Preset]
+name = Internal res 1/3
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = (1.0/3.0)
+
+[Preset]
+name = Internal res 0.25
+category = Internal resolution
+condition = $isCustom == 4
+$internalRes = 0.25
 
 [Preset]
 name = Default - No LOD change 
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = 0.0 
+$relativeTextureLOD = 0.0 
 
 [Preset]
 name = + 1.0 Softer
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = +1.0 
+$relativeTextureLOD = +1.0 
 
 [Preset]
 name = - 0.5 Sharper
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = -.5
+$relativeTextureLOD = -.5
 
 [Preset]
 name = - 1.0 Sharper
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = -1.0 
+$relativeTextureLOD = -1.0 
 
 [Preset]
 name = - 1.5 Sharper
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = -1.5 
+$relativeTextureLOD = -1.5 
 
 [Preset]
 name = - 2.0 Sharper
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = -2.0 
+$relativeTextureLOD = -2.0 
 
 [Preset]
 name = - 3.0 Sharper
 category = Texture LOD
 condition = $isCustom == 4
-$relativeTextureLOD:float = -3.0 
-
+$relativeTextureLOD = -3.0 
 
 
 # [Preset]
 # name = Default gameplay FOV 80
 # category = Gameplay FOV
 # condition = $isCustom == 4
-# $gameplayFov:float = 0.78539819
+# $gameplayFov = 0.78539819
 # 
 # [Preset]
 # name = Increased gameplay FOV 90 
 # category = Gameplay FOV
 # condition = $isCustom == 4
-# $gameplayFov:float = 0.9
+# $gameplayFov = 0.9
 # 
 # [Preset]
 # name = Increased gameplay FOV 100 
 # category = Gameplay FOV
 # condition = $isCustom == 4
-# $gameplayFov:float = 0.99
+# $gameplayFov = 0.99
 # 
 # [Preset]
 # name = Match 21:9 FOV to 16:9 
 # category = Gameplay FOV
 # condition = $isCustom == 4
-# $gameplayFov:float = 0.582
+# $gameplayFov = 0.582
 # 
 # [Preset]
 # name = Default model LOD distance 
 # category = Model LOD switch distance
 # condition = $isCustom == 4
-# $modelLod:float = 1.0
+# $modelLod = 1.0
 # 
 # [Preset]
 # name = Increased model LOD distance x2
 # category = Model LOD switch distance
 # condition = $isCustom == 4
-# $modelLod:float = 2.0
+# $modelLod = 2.0
 # 
 # [Preset]
 # name = Increased model LOD distance x3
 # category = Model LOD switch distance
 # condition = $isCustom == 4
-# $modelLod:float = 3.0
+# $modelLod = 3.0
 # 
 # [Preset]
 # name = Default gamplay speed
 # category = Gamplay speed
 # condition = $isCustom == 4
-# $gameplayTempo:float = 1.0
+# $gameplayTempo = 1.0
 # 
 # [Preset]
 # name = Turbo gamplay +10%
 # category = Gamplay speed
 # condition = $isCustom == 4
-# $gameplayTempo:float = 1.1
+# $gameplayTempo = 1.1
 # 
 # [Preset]
 # name = Slow / Easy gamplay -10%
 # category = Gamplay speed
 # condition = $isCustom == 4
-# $gameplayTempo:float = 0.9
+# $gameplayTempo = 0.9
 # 
 # [Preset]
 # name = Default 30 FPS cutscene 
@@ -700,10 +776,35 @@ height = 176
 formats = 0x01a
 overwriteFormat = 0x01f
 
+[TextureRedefine]
+width = 96
+height = 48
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 80
+height = 48
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 64
+height = 32
+formats = 0x01a
+overwriteFormat = 0x01f
+
+[TextureRedefine]
+width = 48
+height = 32
+formats = 0x01a
+overwriteFormat = 0x01f
+
 
 [TextureRedefine] # Game Resolution
 width = 1280
 height = 720
+formats = 0x01a,0x011,0x80e
 tileModesExcluded = 0x001
 overwriteWidth = ($width / $gameWidth) * 1280
 overwriteHeight = ($height/$gameHeight) * 720 *$verticalRes
@@ -718,40 +819,44 @@ overwriteHeight = $shadowRes * 2048
 [TextureRedefine] # Blur Map
 width = 640
 height = 368
-overwriteWidth = ($width / $gameWidth) * 640
-overwriteHeight = ($height / $gameHeight) * 368
+formats = 0x011,0x01a
+overwriteWidth = ($width / $gameWidth) * 640 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 368 * $internalRes 
 
 [TextureRedefine] # Blur Map
 width = 640
 height = 360
-tileModesExcluded = 0x001
-overwriteWidth = ($width / $gameWidth) * 640
-overwriteHeight = ($height / $gameHeight) * 360
+formats = 0x011,0x01a
+overwriteWidth = ($width / $gameWidth) * 640 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 360 * $internalRes
 
 [TextureRedefine] # Motion Blur Map
 width = 320
 height = 192
-overwriteWidth = ($width / $gameWidth) * 320
-overwriteHeight = ($height / $gameHeight) * 192
+formats = 0x01a,0011
+overwriteWidth = ($width / $gameWidth) * 320 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 192 * $internalRes
 
 [TextureRedefine] # Motion Blur Map
 width = 320
 height = 180
-overwriteWidth = ($width / $gameWidth) * 320
-overwriteHeight = ($height / $gameHeight) * 180
+formats = 0x01a
+overwriteWidth = ($width / $gameWidth) * 320 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 180 * $internalRes
 
 [TextureRedefine] # Bloom Map
 width = 320
 height = 176
-overwriteWidth = ($width / $gameWidth) * 320
-overwriteHeight = ($height / $gameHeight) * 176
+formats = 0x01a
+overwriteWidth = ($width / $gameWidth) * 320 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 176 * $internalRes
 
 [TextureRedefine] # depth loading etc
 width = 256
 height = 256
 formats = 0x011 #,0x1a
 depth = 1
-overwriteWidth = ($width / $gameWidth) * 256
+overwriteWidth = ($width / $gameWidth) * 256 
 overwriteHeight = ($height / $gameHeight) * 256
 
 [TextureRedefine] # depth loading etc
@@ -765,46 +870,48 @@ overwriteHeight = ($height / $gameHeight) * 128
 [TextureRedefine] # Bloom Mip
 width = 96
 height = 48
-overwriteWidth = ($width / $gameWidth) * 96
-overwriteHeight = ($height / $gameHeight) * 48
+formats = 0x01a
+overwriteWidth = ($width / $gameWidth) * 96 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 48 * $internalRes
 
 [TextureRedefine] # Bloom Mip
 width = 80
 height = 48
-overwriteWidth = ($width / $gameWidth) * 80
-overwriteHeight = ($height / $gameHeight) * 48
+overwriteWidth = ($width / $gameWidth) * 80 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 48 * $internalRes
 
 [TextureRedefine] # depth loading etc
 width = 64
 height = 64
 depth = 1
 formats = 0x011 #,0x1a
-overwriteWidth = ($width / $gameWidth) * 64
+overwriteWidth = ($width / $gameWidth) * 64 
 overwriteHeight = ($height / $gameHeight) * 64
 
 [TextureRedefine] # Bloom Mip
 width = 64
 height = 32
 formats = 0x1a
-overwriteWidth = ($width / $gameWidth) * 64
-overwriteHeight = ($height / $gameHeight) * 32
+overwriteWidth = ($width / $gameWidth) * 64 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 32 * $internalRes
 
 [TextureRedefine] # Bloom Mip
 width = 48
 height = 32
-overwriteWidth = ($width / $gameWidth) * 48
-overwriteHeight = ($height / $gameHeight) * 32
+formats = 0x01a
+overwriteWidth = ($width / $gameWidth) * 48 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 32 * $internalRes
 
-#[TextureRedefine] # particles
-#width = 8
-#height = 8
-#formats = 0x01a
-#overwriteWidth = ($width / $gameWidth) * 8
-#overwriteHeight = ($height / $gameHeight) * 8
-##
-#[TextureRedefine] # grading?
-#width = 4
-#height = 4
-#formats = 0x80e
-#overwriteWidth = ($width / $gameWidth) * 4
-#overwriteHeight = ($height / $gameHeight) * 4
+[TextureRedefine] # particles
+width = 8
+height = 8
+formats = 0x80e,0x01a
+overwriteWidth = ($width / $gameWidth) * 8 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 8 * $internalRes
+
+[TextureRedefine] # grading?
+width = 4
+height = 4
+formats = 0x80e
+overwriteWidth = ($width / $gameWidth) * 4 * $internalRes
+overwriteHeight = ($height / $gameHeight) * 4 * $internalRes
